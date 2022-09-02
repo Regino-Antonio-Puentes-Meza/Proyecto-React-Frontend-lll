@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300&family=Roboto:ital,wght@0,300;0,700;1,100;1,400;1,500&display=swap');
+
+* {
+  padding   : 0;
+  margin    : 0;
+  box-sizing: border-box;
+  position  : relative;
+}
+
+body {
+  margin                 : 0;
+  font-family            : 'Poppins';
+  -webkit-font-smoothing : antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  background-color: rgb(6, 35, 72);
+  color           : aliceblue;
+  padding         : 20px 40px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+header p span {
+  background-color: black;
+  color           : white;
+  padding         : 3px 5px;
+  border-radius   : 5px;
+}
+
+.App {
+  width         : 100%;
+  position      : relative;
+  padding-bottom: 9em;
+  min-height    : 100vh;
+}
+
+.contador {
+  background-color: #2593d8;
+  box-shadow      : 0px 5px 10px rgba(36, 174, 198, 0.502);
+}
+
+.container {
+  padding       : 20px 40px;
+  display       : flex;
+  flex-direction: row;
+  gap           : 30px;
+  width         : 90%;
+  margin        : auto;
+  flex-wrap     : wrap;
+}
+
+.producto {
+  border         : 0.5px solid #ddd;
+  margin         : auto;
+  padding        : 20px;
+  width          : 100%;
+  max-width      : 420px;
+  height         : auto;
+  border-radius  : 18px;
+  display        : flex;
+  flex-direction : column;
+  justify-content: space-between;
+  transition     : .4s;
+  box-shadow     : rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+
+
+.producto:hover {
+  transform: scale(1.021);
+}
+
+.producto h3 {
+  width     : 95%;
+  text-align: center;
+  margin    : auto;
+}
+
+.producto img {
+  display   : block;
+  width     : 200px;
+  height    : auto;
+  max-width : 100%;
+  object-fit: cover;
+  margin    : auto;
+}
+
+.producto p {
+  width         : 95%;
+  margin        : auto;
+  text-transform: initial;
+}
+
+.producto h5 {
+  padding   : 15px;
+  margin    : auto;
+  text-align: center;
+}
+
+.producto h5 span {
+  background-color: rgb(255, 178, 178);
+  padding         : 3px;
+  font-weight     : lighter;
+  color           : rgb(155, 0, 0);
+  border-radius   : 3px;
+}
+
+.producto button:enabled {
+  text-transform  : uppercase;
+  padding         : 10px;
+  font-size       : 15px;
+  cursor          : pointer;
+  text-align      : center;
+  color           : #fff;
+  background-color: rgb(25, 102, 196);
+  border          : none;
+  border-radius   : 20px;
+  width           : 95%;
+  margin          : auto;
+  box-shadow      : rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  transition      : all 0.3s ease 0s;
+}
+
+.producto button:hover {
+  background-color: #2593d8;
+  box-shadow      : 0px 15px 20px rgba(36, 173, 198, 0.529);
+  color           : #fff;
+  transform       : translateY(-4px);
+  transform       : scale(1.031)
+}
+
+.producto button:disabled {
+  padding       : 10px;
+  text-transform: uppercase;
+  background    : #d4c9c9;
+  color         : #ba6060fe;
+  border        : none;
+  padding       : 10px;
+  font-size     : 15px;
+  font-weight   : bold;
+  border-radius : 20px;
+  cursor        : not-allowed;
+}
+
+footer {
+  width           : 100%;
+  height          : 90px;
+  background-color: rgb(6, 35, 72);
+  bottom          : 0;
+  color           : aliceblue;
+  display         : flex;
+  flex-direction  : column;
+  justify-content : center;
+  align-items     : center;
+  padding         : 4em ;
+  margin-bottom   : 0;
+  position        : absolute;
+}
+
+.redes {
+  display: flex;
+}
+
+.redes img {
+  width     : 40px;
+  height    : 40px;
+  margin    : 0px 15px;
+  transition: .4s ease;
+  margin-top: 10px;
+}
+
+.redes img:hover {
+  transform: scale(1.141);
+}
+
+.terms p {
+  margin-top: .08rem;
+  font-size : 15px;
+}
+
+.copy p {
+  margin-top   : .5rem;
+  color        : rgba(228, 224, 224, 0.637);
+  font-size    : 13px;
+  margin-bottom: -19px;
+
+}

@@ -1,0 +1,56 @@
+[
+	{
+		"id": "1",
+		"producto": {
+			"nombre": "Zapatillas Nike Revolution 6 Next",
+			"imagen": "https://www.thenextsole.com/storage/images/DC3728-402.png",
+			"descripcion": "Suma más y más kilómetros con tus Zapatillas Nike Revolution 6 Next Nature, que aportan amortiguación y confort a cada paso que des. Su capellada transpirable y suela diseñada por computadora para una mejor tracción son ideales."
+		},
+		"stock": 5
+	},
+	{
+		"id": "2",
+		"producto": {
+			"nombre": "Zapatillas Puma Shuffle",
+			"imagen": "https://falabella.scene7.com/is/image/FalabellaCO/7800824_3?wid=800&hei=800&qlt=70",
+			"descripcion": "Las zapatillas Puma Shuffle ADP están confeccionadas en materiales sintéticos. De caña baja, con ajuste personalizado gracias al sistema de cordones, sus perforaciones le dan un estilo urbano que se fusiona con la inserción del logo PUMA N°1 y PUMA N°2."
+		},
+		"stock": 1
+	},
+	{
+		"id": "3",
+		"producto": {
+			"nombre": "Zapatillas Adidas Coreracer",
+			"imagen": "https://pepeganga.vtexassets.com/arquivos/ids/775129/FX3593-125544947-1.png?v=637904779382630000",
+			"descripcion": "Urbanas, livianas y frescas, las Zapatillas adidas Coreracer están pensadas para cumplir con las demandas más exigentes. Su suela tiene un estabilizador de talón y su capellada es transpirable para mantener el confort que mereces."
+		},
+		"stock": 3
+	},
+	{
+		"id": "4",
+		"producto": {
+			"nombre": "Zapatillas Nike air shoes, Sneakers",
+			"imagen": "https://i.pinimg.com/originals/e6/bd/13/e6bd13e1688416c0b7fde5f9c63bb32b.png",
+			"descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias minima praesentium, itaque distinctio aspernatur magnam vel. Suscipit sed, praesentium enim nihil earum, nam in ut ducimus, accusamus deserunt accusantium rem! Recusandae ipsum quae reprehenderit nihil repellendus."
+		},
+		"stock": 7
+	},
+	{
+		"id": "5",
+		"producto": {
+			"nombre": "Zapatillas Nike Air Presto",
+			"imagen": "https://i.pinimg.com/originals/b1/65/1b/b1651b78a0b320e8d53b297eb6099ec4.png",
+			"descripcion": "En esta ocasión toca hablar de las zapatillas Nike Air, un renovado modelo que hizo su aparición allá por el año 2000 y cuya fama se debió principalmente por su novedosa estructura tipo calcetín. Nike actualiza este modelo para hombre y mujer con nuevos materiales y pioneras tecnologías."
+		},
+		"stock": 4
+	},
+	{
+		"id": "6",
+		"producto": {
+			"nombre": "Zapatilla Puma Walking Ferrari",
+			"imagen": "https://mister-mango.omni.la/ProductCatalog/Workspace.CWDQQL6GUIJMS/ProductCatalog.C3U4FBHXUWJD2/1500x1500/C3VBKSMDTLD64.jpg",
+			"descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias minima praesentium, itaque distinctio aspernatur magnam vel. Suscipit sed, praesentium enim nihil earum, nam in ut ducimus, accusamus deserunt accusantium rem! Recusandae ipsum quae reprehenderit nihil repellendus."
+		},
+		"stock": 2
+	}
+]
